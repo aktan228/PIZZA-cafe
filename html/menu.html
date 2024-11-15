@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container container">
+            <div class="header_menu">
+                <div class="menu_info">
+                    <div class="info_logo_box">
+                        <div class="logo">
+                            <img src="/img/pizza-logo-free-vector.jpg" alt="">
+                        </div>
+                        <p class="title">Pizza</p>
+                    </div>
+                    <div class="menu_info_text">Доставка пиццы по всему <span class="pink">Бишкеку</span></div>
+                    <div class="menu_info_number">0500144667</div>
+                </div>
+                <div class="menu_nav">
+                    <nav class="nav">
+
+                        <a href="/html/index.html">
+                            main
+                        </a>
+                        <a href="/html/menu.html">
+                            Menu
+                        </a>
+                        <a href="">
+                            contacts
+                        </a>
+
+                        <div class="nav_register_div">
+                            <button type="button" id="logMenu">Login</button>
+                            <button class="menu_nav_busket" type="button">Busket I <span
+                                    id="busketQuantity">0</span></button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_container container">
+
+
+            <section class="main_pizza_menu">
+                <h1>ПИЦЦЫ</h1>
+                <div class="pizza_menu_box">
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_pizza_menu kombo">
+                <h1>КОМБО</h1>
+
+                <div class="pizza_menu_box">
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:1875x1875/11EF7A2D3DBCC385A4B5C44CD665F5C9.avif" alt=""></div>
+                        <div class="card_title black">Patrol комбо</div>
+                        <p class="card_revise">Пицца особой формы, щенок-игрушка из мультсериала и яркая коробочка, из которой можно собрать Смотровую башню Бухты Приключений!</p>
+                        <div class="card_box">
+                            <h1 class="card_cost black">751 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:1875x1875/11EEC6E044EACB99ACB1FD07960586AB.avif" alt=""></div>
+                        <div class="card_title black">2 пиццы</div>
+                        <p class="card_revise">Парочка что надо. 2 средние пиццы. Цена комбо зависит от выбранных пицц и может быть увеличена</p>
+                        <div class="card_box">
+                            <h1 class="card_cost black">1164 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:1875x1875/11EEF8994D11BF21B5C7EBE3DB2E27C4.avif" alt=""></div>
+                        <div class="card_title black">2 пиццы и напиток</div>
+                        <p class="card_revise">Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2 - 4 человек. Цена комбо зависит от выбранных пицц и может быть увеличена</p>
+                        <div class="card_box">
+                            <h1 class="card_cost black">945 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:1875x1875/11EEC6E036765237BAC2773AE76F6AB0.avif" alt=""></div>
+                        <div class="card_title black">4 Додстера</div>
+                        <p class="card_revise">Сытный квартет для маленькой компании. Комбо из четырех додстеров на выбор</p>
+                        <div class="card_box">
+                            <h1 class="card_cost black">675 сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_pizza_menu">
+                <h1>Закуски</h1>
+                <div class="pizza_menu_box">
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EF3FA2364A34E494C873FECF6B7958.avif" alt=""></div>
+                        <div class="card_title">Сырный стартер</div>
+                        <p class="card_revise">Горячая закуска с очень сырной начинкой. Моцарелла, пармезан, чеддер и соус ранч в тонкой пшеничной лепешке</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">176 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EEF89E5D32ADBEB88837C52351C9EB.avif" alt=""></div>
+                        <div class="card_title">Баварский ланчбокс</div>
+                        <p class="card_revise">ОЧ вкусно</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">345 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EE796F473C1CC191CEABA896B241C1.avif" alt=""></div>
+                        <div class="card_title">Паста Песто</div>
+                        <p class="card_revise">Паста с цыпленком, моцареллой, томатами, соусом песто и фирменным томатным соусом</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">350 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EF1CB3CCA6622EBF4D9815B0373AC4.avif" alt=""></div>
+                        <div class="card_title">Куриные наггетсы</div>
+                        <p class="card_revise">Нежное куриное мясо в хрустящей панировке</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">255 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_pizza_menu">
+                <h1>ДЕСЕРТЫ</h1>
+                <div class="pizza_menu_box">
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EF1CA528051D229B29F2E16D3E33CD.avif" alt=""></div>
+                        <div class="card_title">Пончик клубничный</div>
+                        <p class="card_revise">Нежный пончик с клубничной начинкой и разноцветной посыпкой</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">156 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EE796F254DB861B5E224701DE15910.avif" alt=""></div>
+                        <div class="card_title">Чизкейк</div>
+                        <p class="card_revise">Классический американский десерт с мягким бархатистым вкусом</p>
+                        <div class="card_box">
+                            <h1 class="card_cost"> 160 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EE796F457E5AE7A0005E139EA09971.avif" alt=""></div>
+                        <div class="card_title">Чизкейк Банановый </div>
+                        <p class="card_revise">Нежный десерт с бананом и шоколадным печеньем</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">169 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="https://media.dodostatic.net/image/r:584x584/11EE7D6036DC3347BB66261B73B03FDD.avif" alt=""></div>
+                        <div class="card_title">Сырники с малиновым вареньем</div>
+                        <p class="card_revise">Нежные сырники, приготовленные в печи, с малиновым вареньем</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">315 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer_container container">
+            <div class="">
+                <div class="info_logo_box">
+                    <div class="logo_footer">
+                        <img src="/img/pizza-logo-free-vector.jpg" alt="">
+                    </div>
+                    <p class="title">Pizza</p>
+                </div>
+
+                
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d731.1882151907965!2d74.61022642272602!3d42.85695130315377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7d148f3c377%3A0x9e4f1ae493a05caf!2sDodo%20Pizza!5e0!3m2!1sru!2skg!4v1731612756223!5m2!1sru!2skg"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="footer_license">
+            Pizza Все праав защищены © 2021
+        </p>
+    </footer>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>

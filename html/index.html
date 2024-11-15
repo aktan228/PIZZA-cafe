@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ya bao</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_container container">
+            <div class="header_menu">
+                <div class="menu_info">
+                    <div class="info_logo_box">
+                        <div class="logo">
+                            <img src="/img/pizza-logo-free-vector.jpg" alt="">
+                        </div>
+                        <p class="title">Pizza</p>
+                    </div>
+                    <div class="menu_info_text">Доставка пиццы по всему <span class="pink">Бишкеку</span></div>
+                    <div class="menu_info_number">0500144667</div>
+                </div>
+                <div class="menu_nav">
+                    <nav class="nav">
+
+                        <a href="/html/index.html">
+                            main
+                        </a>
+                        <a href="/html/menu.html">
+                            Menu
+                        </a>
+                        <a href="#footer">
+                            contacts
+                        </a>
+
+                        <div class="nav_register_div">
+                            <button type="button" id="logMenu">Login</button>
+                            <button class="menu_nav_busket" type="button">Busket I
+                                <span id="busketQuantity">0</span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_container container">
+            <h1 class="background_title">Акции</h1>
+
+            <section class="main_beautiful_background slider">
+                <div class="slides">
+                    <img src="/img/1.png" alt="image #1" class="slide">
+                    <img src="/img/2.png" alt="image #2" class="slide">
+                    <img src="/img/3.png" alt="image #3" class="slide">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+
+            </section>
+            <section class="main_pizza_menu">
+                <div class="pizza_menu_box">
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                        <div class="card_title">С креветками и трюфелями</div>
+                        <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                            черный перец, пармезан.350 г</p>
+                        <div class="card_box">
+                            <h1 class="card_cost">от 600 Сом</h1>
+                            <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <a href="/html/menu.html"><button class="section_menu_button">see more</button></a>
+            </section>
+            <!-- <section class="main_cola">
+                <div class="menu_card">
+                    <div class="card_img"><img src="/img/image 10.png" alt=""></div>
+                    <div class="card_title">С креветками и трюфелями</div>
+                    <p class="card_revise">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло,
+                        черный перец, пармезан.350 г</p>
+                    <div class="card_box">
+                        <h1 class="card_cost">от 600 Сом</h1>
+                        <button class="in_busket" onclick="addBusket()" id="busket">В корзину</button>
+                    </div>
+                </div>
+            </section> -->
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer_container container">
+            <div class="">
+                <div class="info_logo_box">
+                    <div class="logo_footer">
+                        <img src="/img/pizza-logo-free-vector.jpg" alt="">
+                    </div>
+                    <p class="title">Pizza</p>
+                </div>
+
+
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d731.1882151907965!2d74.61022642272602!3d42.85695130315377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7d148f3c377%3A0x9e4f1ae493a05caf!2sDodo%20Pizza!5e0!3m2!1sru!2skg!4v1731612756223!5m2!1sru!2skg"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="footer_license">
+            Pizza Все праав защищены © 2021
+        </p>
+    </footer>
+    <script src="/main.js"></script>
+</body>
+
+</html>
